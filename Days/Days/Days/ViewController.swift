@@ -32,6 +32,7 @@ class ViewController: UIViewController {
         //日期選擇最大為今天
         datepicker.maximumDate = Date()
         // Do any additional setup after loading the view.
+        datepicker.setValue(UIColor.black, forKey: "textColor")
     }
 
 
